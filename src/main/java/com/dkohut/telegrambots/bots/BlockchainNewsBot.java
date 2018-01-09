@@ -1,4 +1,4 @@
-package com.dkohut.telegrambots.common.bots;
+package com.dkohut.telegrambots.bots;
 
 import java.util.ArrayList;
 import java.util.List;
