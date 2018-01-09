@@ -99,6 +99,11 @@ public class BlockchainNewsBot extends TelegramLongPollingBot {
 				
 				sendTextMessage(chatId, helpMessage);
 				
+			} else if(command.equals("/start")) {
+				String welcomeMessage = "Welcome to the BlockchainNews";
+				
+				sendTextMessage(chatId, welcomeMessage);
+				
 			} else {
 				logger.info("Command is not recognized");
 				sendTextMessage(update.getMessage().getChatId(), "Command is not recognized");
